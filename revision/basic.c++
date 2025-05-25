@@ -59,30 +59,43 @@ int main(){
 return 0;
 } */
 
+// #include<iostream>
+// using namespace std;
+// int main(){
+//      int decimalnum;
+//      int binarynum[32];
+//      int index=0;
+//      cout<<"enter a decimal number";
+//       cin>>decimalnum;
+//       int tempNum=decimalnum;
+
+//       if(decimalnum==0){
+//         cout<<"binary= 0";
+//         return 0;
+//       }
+//       while(decimalnum>0){
+//           binarynum[index]=decimalnum%2;
+//           decimalnum=decimalnum/2;
+//           index++;
+//       }
+//       cout<<"binary of "<<tempNum<<"is :";
+//        for(int i=index-1; i>=0;i--){
+//         cout<<binarynum[i];
+//        }
+//        cout<<endl;
+
+// return 0;
+// }
+
+/* typecasting  */
 #include<iostream>
 using namespace std;
 int main(){
-     int decimalnum;
-     int binarynum[32];
-     int index=0;
-     cout<<"enter a decimal number";
-      cin>>decimalnum;
-      int tempNum=decimalnum;
-
-      if(decimalnum==0){
-        cout<<"binary= 0";
-        return 0;
-      }
-      while(decimalnum>0){
-          binarynum[index]=decimalnum%2;
-          decimalnum=decimalnum/2;
-          index++;
-      }
-      cout<<"binary of "<<tempNum<<"is :";
-       for(int i=index-1; i>=0;i--){
-        cout<<binarynum[i];
-       }
-       cout<<endl;
+     int a =12;
+     int b=12;
+     cout<<a+b<<endl;
+     cout<<char(a+b);
+     cout << char(a + b + 65); // 24 + 65 = 89 => 'Y'
 
 return 0;
 }
